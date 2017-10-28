@@ -13,3 +13,5 @@ The following skills practices during this assignment include the following:
 4. Structure and layout defined using CSS for HTML elements.
 .
 .
+
+Note for next session: try adding search buttons as individual elements rather than treating them as a navbar.

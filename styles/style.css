@@ -1,5 +1,9 @@
 html, body {
-  height: 100%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
 }
 
 li {
@@ -15,7 +19,7 @@ li {
   width: auto;
   position: fixed;
   top: 10em;
-  left: 30em;
+  left: 50%;
 }
 
 #google-search input {
@@ -74,12 +78,12 @@ li {
   margin: 0;
   padding: 0;
   position: fixed;
-  top: 65%;
+  top: 48%;
   left: 40%;
 }
 
 #search-buttons li {
-  display: block;
+  display: inline-block;
   float: left;
   padding: 12px;
   font-weight: 700;
