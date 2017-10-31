@@ -10,17 +10,33 @@ html, body {
   color: rgb(102,102,102);
 }
 
-#google-logo img {
-  display: block;
-  height: 165px;
-  margin: 0 auto;
-  padding-top: 120px;
-  width: auto;
+#top-nav-bar img {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#google-search input {
-  width: 550px;
-  height: 40px;
+#google-apps {
+  height: 30px;
+  padding: 15px 15px 8px 0;
+  -webkit-filter: grayscale(100%);
+}
+
+#google-notifications {
+  height: 20px;
+  padding: 20px 15px 8px 0;
+}
+
+#google-profile {
+  height: 30px;
+  padding: 15px 25px 8px 0;
+}
+
+#google-images {
+  padding: 22px 15px 8px 0;
+}
+
+#gmail {
+  padding: 22px 15px 8px 0;
 }
 
 #top-nav-bar ul {
@@ -34,8 +50,42 @@ html, body {
 
 #top-nav-bar li {
   float: right;
-  padding: 8px;
-  text-align: right;
+  /*padding: 20px 8px 8px 8px;
+  */text-align: right;
+}
+
+#top-nav-bar li:hover {
+  text-decoration: underline;
+}
+
+#google-logo img {
+  display: block;
+  height: 165px;
+  margin: 0 auto;
+  padding-top: 120px;
+  width: auto;
+}
+
+#google-search input {
+  width: 550px;
+  height: 40px;
+  border-top-color: rgb(234,234,234);
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-bottom-color: rgb(203,203,203);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-right-color: rgb(230,230,230);
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-left-color: rgb(221,221,221);
+  border-left-style: solid;
+  border-left-width: 1px;
+  box-shadow: rgb(230,230,230) 0px 2px 5px 0px;
+}
+
+#google-search input:hover {
+  box-shadow: rgb(230,230,230) 0px 4px 8px 2px;
 }
 
 #bottom-nav-bar ul {
@@ -47,6 +97,10 @@ html, body {
   width: 100%;
   position: fixed;
   bottom: 0;
+}
+
+#bottom-nav-bar li:hover {
+  text-decoration: underline;
 }
 
 #bottom-nav-bar .left-align-nav {
@@ -83,7 +137,7 @@ html, body {
   padding-left: 30px;
 }
 
-input[type=submit] {
+#search-buttons input[type=submit] {
   display: inline-block;
   padding-bottom: 0;
   padding-left: 16px;
@@ -99,4 +153,11 @@ input[type=submit] {
   background-color: rgb(242,242,242);
   color: rgb(117,117,117);
   height: 36px;
+  border: 0;
+  border-radius: 0;
+}
+
+#search-buttons input:hover {
+  border: 1px solid #c6c6c6;
+  color: black;
 }
